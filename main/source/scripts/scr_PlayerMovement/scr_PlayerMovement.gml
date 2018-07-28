@@ -67,12 +67,3 @@ scr_MovementCollision();
 //Non FPS dependant movement ~FinalFate
 x += xSpeed * getDeltaTime;
 y += ySpeed * getDeltaTime;
-
-
-
-
-if (instance_exists(obj_Text))
-{
-    obj_Text.x = obj_Player.x - 50;
-    obj_Text.y = obj_Player.y + 129;
-}
