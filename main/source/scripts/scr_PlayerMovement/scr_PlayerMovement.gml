@@ -57,11 +57,6 @@ if (xSpeed == 0 && ySpeed == 0)
 
 scr_MovementCollision();
 
-if (instance_exists(obj_Interact))
-{
-	scr_NpcInteract();
-}
-
 
 //FPS dependant movement option
 //x += xSpeed;
@@ -73,3 +68,11 @@ if (instance_exists(obj_Interact))
 x += xSpeed * getDeltaTime;
 y += ySpeed * getDeltaTime;
 
+
+
+
+if (instance_exists(obj_Text))
+{
+    obj_Text.x = obj_Player.x - 50;
+    obj_Text.y = obj_Player.y + 129;
+}

@@ -1,4 +1,4 @@
-/****************\
+ /****************\
 *  Aidan David	 *
 *      Aidan     *
 \****************/
@@ -23,3 +23,4 @@ if (obj_Input.BATTLE and room != menu_Pause and room != rm_Battle)
 	global.state = scr_StartBattle;
 	obj_Input.BATTLE = false;
 }
+

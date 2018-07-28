@@ -14,3 +14,7 @@ if (global.state == scr_StartBattle)
 	room_goto(rm_Battle);	
 }
 
+if (global.state == scr_Talk)
+{
+	scr_Talk();	
+}

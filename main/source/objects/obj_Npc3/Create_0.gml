@@ -1,1 +1,0 @@
-objStr = 0; //If you want to make an object that has the "e" popup, but won't bring up a text box (like a chest or something) this is all you have to add.
